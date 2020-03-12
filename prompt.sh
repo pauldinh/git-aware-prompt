@@ -28,7 +28,7 @@ PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
 # Another variant:
 # export PS1="\[$bldgrn\]\u@\h\[$txtrst\] \w \[$bldylw\]\$git_branch\[$txtcyn\]\$git_dirty\[$txtrst\]\$ "
 # export PS1="\[$bldwht\]\u@\h\[$txtrst\]:\[$bldcyn\]\w\[$bldred\]\$(__git_ps1 ' %s') \[$bldwht\]$\[$txtrst\] "
-export PS1="\[$BIWhite\]\u@\h\[$rst\]:\[$BICyan\]\w\[$BIRed\]\$(__git_ps1 ' %s') \[$BWhite\]$\[$rst\] "
+export PS1="\[$BIWhite\]\u@\h\[$rst\]:\[$BIPurple\]\w\[$BIRed\]\$(__git_ps1 ' %s') \[$BWhite\]$\[$rst\] "
 
 # Default Git enabled root prompt (for use with "sudo -s")
 # export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "
